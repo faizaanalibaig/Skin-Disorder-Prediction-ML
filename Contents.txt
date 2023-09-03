@@ -1,13 +1,13 @@
-# Table of Contents
+# List Of Contents:
 
-1. [Importing Libraries](#importing-libraries)
-2. [Data Collection](#data-collection)
-3. [Domain Analysis](#domain-analysis)
-4. [Exploratory Data Analysis](#exploratory-data-analysis)
-5. [Data Pre Processing](#data-pre-processing)
-6. [Feature Selection](#feature-selection)
-7. [Model Creation](#model-creation)
-8. [Model Evaluation](#model-evaluation)
-9. [Evaluation Summary](#evaluation-summary)
-10. [Challenges Faced](#challenges-faced)
-11. [Conclusion](#conclusion)
+1. Importing Libraries
+2. Data Collection
+3. Domain Analysis
+4. Exploratory Data Analysis
+5. Data Pre Processing
+6. Feature Selection
+7. Model Creation
+8. Model Evaluation
+9. Evaluation Summary
+10. Challenges Faced
+11. Conclusion
