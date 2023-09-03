@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+seaborn
+LogisticRegression
+KNeighborsClassifier
+DecisionTreeClassifier
+RandomForestClassifier
+SVC [support vector classifier]
+MultinomialNB [Naive Bayes]
+GridSearchCV
+RandomizedSearchCV
