@@ -2,6 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
+sklearn
 LogisticRegression
 KNeighborsClassifier
 DecisionTreeClassifier
