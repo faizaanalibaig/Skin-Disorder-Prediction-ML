@@ -7,7 +7,7 @@ The dataset contains 34 independent features, and the target variable represents
 2. Data Preprocessing:
 - During the univariate analysis, it was observed that none of the features were normally distributed, and several features exhibited positive skewness. 
 To handle missing values in the "Age" column, '?' marks were replaced with NaN, and then the mean age was imputed for these missing values.
-- Nine independent features were found to have high correlation with multiple other features, leading to multicollinearity. These features were dropped to mitigate the issue of multicollinearity.
+- Nine independent features were found to have a high correlation with multiple other features, leading to multicollinearity. These features were dropped to mitigate the issue of multicollinearity.
 
 3. Feature Engineering:
 - The heatmap analysis revealed several pairs of highly correlated features. 
@@ -16,7 +16,7 @@ For instance, "polygonal_papules" showed strong correlations with "melanin_incon
 4. Model Building and Evaluation:
 - Six different models were trained on the preprocessed data: Logistic Regression, K-Nearest Neighbors (KNN), Decision Tree, Random Forest, Support Vector Machine (SVM), and Naive Bayes.
 - The initial Decision Tree and Random Forest models exhibited signs of overfitting, which were gone through hyperparameter tuning using GridsearchCV and RandomizedSearchCV.
-- SVM model was found to be underfitting the data, while KNN showed average performance on both test and training data.
+- The SVM model was found to be underfitting the data, while KNN showed average performance on both test and training data.
 - Random Forest with Hyperparameter tuning achieved the best accuracy score of 95% on the test data and demonstrated better generalization compared to other models.
 
 
@@ -27,8 +27,8 @@ For instance, "polygonal_papules" showed strong correlations with "melanin_incon
 - GridSearchCV for tuning the Random Forest model was time-consuming; hence, RandomizedSearchCV was employed for faster parameter optimization.
 
 6. Conclusion:
-After conducting a thorough analysis of various machine learning models, 
-it was determined that the Random Forest model with hyperparameter tuning provides the best performance for production use.
+After conducting a thorough analysis of various machine-learning models, 
+It was determined that the Random Forest model with hyperparameter tuning provides the best performance for production use.
 Both Naive Bayes and Random Forest with Hyperparameter tuning showed similar accuracy and F1-score on the test data, 
 but the Random Forest model's higher training score and better generalization made it the preferred choice.
 
