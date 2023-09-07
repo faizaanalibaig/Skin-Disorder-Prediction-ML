@@ -1,4 +1,4 @@
-# Skin-Disorder-Prediction-ML
+**# Skin-Disorder-Prediction-ML**
 
 **Business Case for this Project:**
 <br>
