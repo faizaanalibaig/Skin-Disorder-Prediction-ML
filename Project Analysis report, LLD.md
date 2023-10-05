@@ -39,3 +39,7 @@ but the Random Forest model's higher training score and better generalization ma
 8. References:
 1. [https://www.frontiersin.org/articles/10.3389/fmed.2020.00091/full]
 2. [https://ieeexplore.ieee.org/document/9278810]
+
+<br>
+
+**Note:** Detailed technical specifications, algorithms, and code implementation details are typically provided in separate ipynb file sections of the project repository.
